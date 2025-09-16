@@ -24,7 +24,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-All commands are available through `python -m claude_code_cli` (or `python -m claude_code_cli --help` for a quick reference).
+Run the commands either by adding the `src` directory to `PYTHONPATH`
+(`PYTHONPATH=src python -m claude_code_cli ...`) or by installing the package in
+editable mode (`pip install -e .`). Once available on the module search path you
+can list commands via:
+
+```bash
+python -m claude_code_cli --help
+```
 
 ### 1. Simple prompt
 

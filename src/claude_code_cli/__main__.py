@@ -6,7 +6,7 @@ import json
 import logging
 import os
 from dataclasses import asdict
-from typing import Any, Callable, Iterable
+from typing import Any, Callable
 
 from claude_code_sdk import (
     AssistantMessage,
